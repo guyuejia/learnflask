@@ -8,7 +8,7 @@
 2020/5/30 19:38   gujiayue      1.0         None
 '''
 from flask_mail import Message
-from app import mail,app
+from app import app,mail
 from flask import render_template
 from threading import Thread
 
